@@ -14,6 +14,7 @@ html {
 body {
 	display: flex;
 	min-height: 100vh;
+	flex-direction: column;
 }
 
 /* Header */
@@ -86,6 +87,10 @@ body {
 	display: flex;
 	align-items: center;
 	flex-direction: column;
+}
+
+.logo {
+	margin-top: 15px;
 }
 
 .search-bar {
